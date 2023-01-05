@@ -15,6 +15,22 @@ body {
     font-family: Poppins;
 }
 
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
 /* warna */
 .color-green {
     color: #009E66;
@@ -159,4 +175,61 @@ body {
 .nav-link:hover::after {
     left: 0;
     width: 100%;
+}
+
+/* css main */
+.btn-download {
+    color: white;
+    background-color: #009e66 !important;
+    border: 1px solid #009e66 !important;
+    border-radius: 30px;
+    padding: 10px 35px;
+    transition: .25s ease-in-out;
+}
+
+.btn-download:hover {
+    background-color: #007e52 !important;
+    border: 1px solid #007e52 !important;
+}
+
+#about {
+    height: 100%;
+}
+
+#my-profile {
+    width: 430px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+@media only screen and (max-width: 768px) {
+    #my-profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #my-profile {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #my-profile {
+        width: 430px;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }

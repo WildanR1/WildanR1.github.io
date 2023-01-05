@@ -233,3 +233,19 @@ body {
         font-size: 16px;
     }
 }
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: #585858;
+    border-radius: 5px
+}
+
+.btn-logo {
+    color: #F0F0F0;
+    transition: .3s ease-in-out;
+}
+
+.btn-logo:hover {
+    color: #009E66;
+}

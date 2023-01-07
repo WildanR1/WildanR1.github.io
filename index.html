@@ -26,114 +26,287 @@
     <script src="aos/aos.js"></script>
 
     <!-- loader -->
-    <!-- <link rel="stylesheet" href="css/loader.css" /> -->
+    <link rel="stylesheet" href="css/loader.css" />
     <!-- title -->
     <title>Wildan R | Personal Website</title>
   </head>
   <body onload="loader()">
-    <!-- <section class="progress"></section> -->
-    <section id="content">
-      <!-- Nav bar -->
-      <nav class="navbar bg-grey fixed-top navbar-expand-lg" data-bs-theme="dark">
-        <div class="container align-items-center">
-          <a class="navbar-brand font-poppins fw-bold" href="#"> <i>Wildan </i> <i style="color: #009e66">R</i> </a>
-          <button
-            class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="toggler-icon top-bar"></span>
-            <span class="toggler-icon middle-bar"></span>
-            <span class="toggler-icon bottom-bar"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-poppins nav-panel">
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link text-center active" href="#about">About</a>
-              </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link text-center" href="#resume">Resume</a>
-              </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link text-center" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link text-center" href="#contact">Contact</a>
-              </li>
-            </ul>
+    <!-- Nav bar -->
+    <nav class="navbar bg-grey fixed-top navbar-expand-lg" data-bs-theme="dark">
+      <div class="container align-items-center">
+        <a class="navbar-brand font-poppins fw-bold" href="#"> <i>Wildan </i> <i style="color: #009e66">R</i> </a>
+        <button
+          class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-poppins nav-panel">
+            <li class="nav-item mx-lg-4">
+              <a class="nav-link text-center" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-lg-4">
+              <a class="nav-link text-center" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item mx-lg-4">
+              <a class="nav-link text-center" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-lg-4">
+              <a class="nav-link text-center" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+    <main class="font-poppins">
+      <section id="about" class="d-flex justify-content-center align-items-center">
+        <div class="row justify-content-center container" style="padding: 5rem 0rem">
+          <div class="col-12 col-lg-4 pt-3 d-flex justify-content-center justify-content-lg-start">
+            <img src="img/profil.jpg" alt="My Profile" class="img-fluid justify-content-center" id="my-profile" data-aos="zoom-in" />
+          </div>
+          <div class="col-12 col-lg-8 d-flex flex-column justify-content-between ps-0 ps-md-5 pt-3">
+            <h6 class="fw-bold text-white font-26 mb-3 px-2 px-sm-0" data-aos="fade-right" data-aos-delay="200">
+              Halo Semuanya <br />
+              Saya Wildan <span class="color-green">Rachmadoni</span>
+            </h6>
+            <div>
+              <p class="text-white text-justify px-2 px-sm-0" data-aos="fade-right" data-aos-delay="400">
+                Saya merupakan seorang mahasiswa yang sekarang sedang menyelesaikan studi di Universitas Negeri Surabaya. Seorang yang memiliki rasa ingin tahu yang tinggi, jujur, bertanggung jawab dan orang yang belajar sambil melakukan.
+                Saya memiliki ketertarikan untuk berkarir sebagai Developer. Selain itu, saya terus belajar tentang hal-hal baru yang menarik minat saya dan dapat menambah keterampilan saya karena saya sangat menikmati prosesnya.
+              </p>
+            </div>
+            <hr class="text-white" data-aos="fade-right" data-aos-delay="500" />
+            <div class="text-white px-2 px-sm-0">
+              <div class="row">
+                <div class="col-md-5" data-aos="fade-right" data-aos-delay="600">
+                  <div>Name:&ensp; Wildan Rachmadoni</div>
+                </div>
+                <div class="col-12 col-md-7" data-aos="fade-right" data-aos-delay="800">Email:&ensp; <a href="mailto:wildanrachmadoni@gmail.com?" class="text-decoration-none color-green">wildanrachmadoni@gmail.com</a></div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-md-5" data-aos="fade-right" data-aos-delay="1000">Age:&ensp; 20</div>
+                <div class="col-12 col-md-7" data-aos="fade-right" data-aos-delay="1200">From:&ensp; Jember, Indonesia</div>
+              </div>
+            </div>
+            <div class="px-2 px-sm-0 mt-3 pb-3 d-flex align-items-center" data-aos="fade-right" data-aos-delay="1400">
+              <span>
+                <a href="CV/CV Wildan Rachmadoni (ATS).pdf" class="text-decoration-none" download>
+                  <button class="btn-download font-16">Download CV</button>
+                </a>
+              </span>
+              <span class="mx-3">
+                <div class="line">&nbsp;</div>
+              </span>
+              <span class="fs-1 mx-2">
+                <a href="https://www.instagram.com/wildn_rmdhn/" class="text-decoration-noner"><i class="fa-brands fa-instagram-square btn-logo"></i></a>
+              </span>
+              <span class="fs-1 mx-2">
+                <a href="https://linkedin.com/in/wildan-rachmadoni-62476b260" class="text-decoration-none"><i class="fa-brands fa-linkedin btn-logo"></i></a>
+              </span>
+              <span class="fs-1 mx-2">
+                <a href="https://github.com/WildanR1" class="text-decoration-none"><i class="fa-brands fa-github-square btn-logo"></i></a>
+              </span>
+            </div>
           </div>
         </div>
-      </nav>
-      <!-- end Navbar -->
-      <main class="font-poppins">
-        <section id="about" class="d-flex justify-content-center align-items-center">
-          <div class="row justify-content-center container" style="padding: 5rem 0rem">
-            <div class="col-12 col-lg-4 pt-3 d-flex justify-content-center justify-content-lg-start">
-              <img src="img/profil.jpg" alt="My Profile" class="img-fluid justify-content-center" id="my-profile" data-aos="zoom-in" />
+      </section>
+      <section id="resume" class="text-white" style="padding: 5rem 0rem">
+        <div class="d-flex flex-column mb-3">
+          <h1 class="title mb-3 text-center fw-bold" data-aos="fade-up">Resume</h1>
+          <div class="d-flex justify-content-center">
+            <div class="line-animate" data-aos="fade-up"></div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center g-0">
+          <div class="row d-flex justify-content-center container">
+            <div class="col-12 col-md-6">
+              <div class="font-26 fw-semibold mb-2" data-aos="flip-down">Pendidikan</div>
+              <div class="mb-1 mycard row py-4 g-0" data-aos="fade-right">
+                <div class="col-1"><i class="fas fa-play color-green"></i></div>
+                <div class="col-11">
+                  <div class="font-20 fw-semibold">Universitas Negeri Surabaya</div>
+                  <div class="font-14"><i>Sistem Informasi</i></div>
+                  <span class="font-14">2020 - Present</span>
+                </div>
+              </div>
+              <div class="mb-1 mycard row py-4 g-0" data-aos="fade-right">
+                <div class="col-1"><i class="fas fa-play color-green"></i></div>
+                <div class="col-11">
+                  <div class="font-20 fw-semibold">SMKN 6 Jember</div>
+                  <div class="font-14"><i>Multimedia</i></div>
+                  <span class="font-14">2017 - 2020</span>
+                </div>
+              </div>
+              <div class="mb-1 mycard row py-4 g-0" data-aos="fade-right">
+                <div class="col-1"><i class="fas fa-play color-green"></i></div>
+                <div class="col-11">
+                  <div class="font-20 fw-semibold">SMPN 4 Tanggul</div>
+                  <span class="font-14">2014 - 2017</span>
+                </div>
+              </div>
+              <div class="mb-1 mycard row py-4 g-0" data-aos="fade-right">
+                <div class="col-1"><i class="fas fa-play color-green"></i></div>
+                <div class="col-11">
+                  <div class="font-20 fw-semibold">SDN 3 Tanggul</div>
+                  <span class="font-14">2008 - 2014</span>
+                </div>
+              </div>
             </div>
-            <div class="col-12 col-lg-8 d-flex flex-column justify-content-between ps-0 ps-md-5 pt-3">
-              <h6 class="fw-bold text-white font-26 mb-3 px-2 px-sm-0" data-aos="fade-right" data-aos-delay="200">
-                Halo Semuanya <br />
-                Saya Wildan <span class="color-green">Rachmadoni</span>
-              </h6>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-between">
               <div>
-                <p class="color-grey px-2 px-sm-0" data-aos="fade-right" data-aos-delay="400">
-                  Saya merupakan seorang mahasiswa yang sekarang sedang menyelesaikan studi di Universitas Negeri Surabaya. Seorang yang memiliki rasa ingin tahu yang tinggi, jujur, bertanggung jawab dan orang yang belajar sambil melakukan.
-                  Saya memiliki ketertarikan untuk berkarir sebagai Developer. Selain itu, saya terus belajar tentang hal-hal baru yang menarik minat saya dan dapat menambah keterampilan saya karena saya sangat menikmati prosesnya.
-                </p>
+                <div class="font-26 fw-semibold mb-2 mt-3 mt-md-0" data-aos="flip-down">Skills</div>
+                <div class="mt-0 mt-md-3 row">
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">HTML</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">CSS</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">Javascript</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">Bootstrap</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">Laravel</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">Figma</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">CorelDraw</span>
+                  <span class="border-green col mx-2 my-1 py-2 d-flex justify-content-center align-items-center text-center" data-aos="fade-down">Adobe Photoshop</span>
+                </div>
               </div>
-              <hr class="text-white" data-aos="fade-right" data-aos-delay="500" />
-              <div class="text-white px-2 px-sm-0">
-                <div class="row">
-                  <div class="col-md-5" data-aos="fade-right" data-aos-delay="600">
-                    <div>Name:&ensp; Wildan Rachmadoni</div>
+              <div>
+                <div class="font-26 fw-semibold mt-3 mb-2" data-aos="flip-down">Sertifikasi</div>
+                <div class="mb-1 mycard row py-4 g-0" data-aos="fade-right">
+                  <div class="col-1"><i class="fas fa-play color-green"></i></div>
+                  <div class="col-11">
+                    <div class="font-20 fw-semibold">Basic Web Programing</div>
+                    <div class="font-14"><i>Camp404</i></div>
+                    <span class="font-14">Berlaku hingga: 27 Desember 2024</span>
                   </div>
-                  <div class="col-12 col-md-7" data-aos="fade-right" data-aos-delay="800">Email:&ensp; <a href="mailto:wildanrachmadoni@gmail.com?" class="text-decoration-none color-green">wildanrachmadoni@gmail.com</a></div>
                 </div>
-                <div class="row">
-                  <div class="col-12 col-md-5" data-aos="fade-right" data-aos-delay="1000">Age:&ensp; 20</div>
-                  <div class="col-12 col-md-7" data-aos="fade-right" data-aos-delay="1200">From:&ensp; Jember, Indonesia</div>
-                </div>
-              </div>
-              <div class="px-2 px-sm-0 mt-3 pb-3 d-flex align-items-center" data-aos="fade-right" data-aos-delay="1400">
-                <span>
-                  <a href="#" class="text-decoration-none">
-                    <button class="btn-download font-16">Download CV</button>
-                  </a>
-                </span>
-                <span class="mx-3">
-                  <div class="line">&nbsp;</div>
-                </span>
-                <span class="fs-1 mx-2">
-                  <a href="https://www.instagram.com/wildn_rmdhn/" class="text-decoration-noner"><i class="fa-brands fa-instagram-square btn-logo"></i></a>
-                </span>
-                <span class="fs-1 mx-2">
-                  <a href="https://linkedin.com/in/wildan-rachmadoni-62476b260" class="text-decoration-none"><i class="fa-brands fa-linkedin btn-logo"></i></a>
-                </span>
-                <span class="fs-1 mx-2">
-                  <a href="https://github.com/WildanR1" class="text-decoration-none"><i class="fa-brands fa-github-square btn-logo"></i></a>
-                </span>
               </div>
             </div>
           </div>
-        </section>
-        <section id="resume" class="d-flex justify-content-center align-items-center text-white" style="height: 100vh; background-color: #00724a">
-          <h1 data-aos="zoom-in">Halaman Resume</h1>
-        </section>
-        <section id="portfolio" class="d-flex justify-content-center align-items-center text-white" style="height: 100vh">
-          <h1 data-aos="zoom-in">Halaman Portfolio</h1>
-        </section>
-        <section id="contact" class="d-flex justify-content-center align-items-center text-white" style="height: 100vh; background-color: #00724a">
-          <h1 data-aos="zoom-in">Halaman Contact</h1>
-        </section>
-      </main>
-    </section>
+        </div>
+      </section>
+      <section id="portfolio" class="text-white" style="padding: 5rem 0rem">
+        <div class="d-flex flex-column mb-3 container">
+          <h1 class="title mb-3 text-center fw-bold" data-aos="fade-up">Portfolio</h1>
+          <div class="d-flex justify-content-center">
+            <div class="line-animate" data-aos="fade-up"></div>
+          </div>
+          <h6 class="font-16 color-grey my-4 text-center" data-aos="fade-up">Portofolio projek yang saat ini dalam pengembangan atau projek yang sudah selesai dalam pengembangan.</h6>
+        </div>
+        <div class="d-flex justify-content-center container">
+          <div class="row g-0 w-100 d-flex justify-content-around">
+            <div class="col-12 col-lg-5 d-flex justify-content-center mb-3" data-aos="zoom-in">
+              <div class="card">
+                <img src="img/portfolio/cekula.png" class="img-fluid" alt="cekula" style="height: 50vh" />
+                <div class="card-body row">
+                  <h6 class="font-20 fw-semibold">Cekula - Smart School</h6>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Web Development</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Laravel</span>
+                  <p class="card-text text-justify">Merupakan aplikasi Smart School yang ditujukan untuk pasar sekolah SMP/MTS. Dibekali dengan beberapa role mulai dari Admin, Siswa, Guru, Osis, dll.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex justify-content-center mb-3" data-aos="zoom-in">
+              <div class="card">
+                <img src="img/portfolio/moge.jpg" class="img-fluid" alt="Moge Premium Rental" style="height: 50vh" />
+                <div class="card-body row">
+                  <h6 class="font-20 fw-semibold">MOGE Premium Rental</h6>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">UI/UX Desain</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Figma</span>
+                  <p class="card-text text-justify">Merupakan sebuah desain antarmuka website yang ditujukan untuk suatu perusahaan sewa kendaraan seperti mobil dan sepeda motor.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex justify-content-center mb-3" data-aos="zoom-in">
+              <div class="card">
+                <img src="img/portfolio/dog-vs-zombie.png" class="img-fluid" alt="Dog VS Zombie" style="height: 50vh" />
+                <div class="card-body row">
+                  <h6 class="font-20 fw-semibold">Dog VS Zombie</h6>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Game Development</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Python</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">PyGame</span>
+                  <p class="card-text text-justify">Merupakan sebuah game sederhana yang bertemakan tower defense, dimana menceritakan karakter utama seekor anjing yang ingin menjaga dan menyelamatkan majikannya dari serangan zombie.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex justify-content-center mb-3" data-aos="zoom-in">
+              <div class="card">
+                <img src="img/portfolio/dulur-lanang.jpg" class="img-fluid" alt="Dulur Lanang" style="height: 50vh" />
+                <div class="card-body row">
+                  <h6 class="font-20 fw-semibold">Dulur Lanang</h6>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Web Development</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Bootstrap</span>
+                  <span class="mx-2 my-1 p-1 border-green d-flex justify-content-center align-items-center text-center font-10 col-4">Laravel</span>
+                  <p class="card-text text-justify">Merupakan sebuah website yang berguna untuk streaming video yang ditujukan kepada para pecinta film dan anime</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="text-white overflow-hidden" style="padding: 5rem 0rem">
+        <div class="d-flex flex-column mb-3 container">
+          <h1 class="title mb-3 text-center fw-bold" data-aos="fade-up">Let's Connect</h1>
+          <div class="d-flex justify-content-center mb-4">
+            <div class="line-animate" data-aos="fade-up"></div>
+          </div>
+          <img src="img/cover-contact-w&b.jpg" class="img-fluid my-3" alt="cekula" style="height: 45vh" data-aos="zoom-in" />
+          <h6 class="font-24 fw-semibold text-justify" data-aos="fade-right">Contact Info</h6>
+          <div class="font-16 color-grey" data-aos="fade-right">Selalu terbuka untuk mendiskusikan proyek baru dan ide kreatif. Jangan ragu untuk menghubungi saya!</div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col 12 col-md-6">
+              <div class="row w-100" style="max-width: 100vw">
+                <div class="col-1 d-flex align-items-center py-2 px-4 justify-content-center" data-aos="flip-right"><i class="fas fa-user fa-2x g-0 color-green"></i></div>
+                <div class="col-9 py-2 ms-0 ms-sm-3 px-1 px-sm-4" style="border-left: 2px solid #9f9f9f" data-aos="fade-left">
+                  <div class="font-16 fw-semibold">Name</div>
+                  <div class="font-14 color-grey">Wildan Rachmadoni</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-flex align-items-center py-2 px-4 justify-content-center" data-aos="flip-right"><i class="fas fa-map-marked-alt fa-2x g-0 color-green"></i></div>
+                <div class="col-9 py-2 ms-0 ms-sm-3 px-1 px-sm-4" style="border-left: 2px solid #9f9f9f" data-aos="fade-left">
+                  <div class="font-16 fw-semibold">Location</div>
+                  <div class="font-14 color-grey">Jember, Jawa Timur, Indonesia</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-flex align-items-center py-2 px-4 justify-content-center" data-aos="flip-right"><i class="fas fa-phone fa-2x g-0 color-green"></i></div>
+                <div class="col-9 py-2 ms-0 ms-sm-3 px-1 px-sm-4" style="border-left: 2px solid #9f9f9f" data-aos="fade-left">
+                  <div class="font-16 fw-semibold">Telephone</div>
+                  <div class="font-14 color-grey"><a href="tel:+6285336092998" class="text-decoration-none color-grey">+62 853-3609-2998</a></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 d-flex align-items-center py-2 px-4 justify-content-center" data-aos="flip-right"><i class="fas fa-paper-plane fa-2x g-0 color-green"></i></div>
+                <div class="col-9 py-2 ms-0 ms-sm-3 px-1 px-sm-4" style="border-left: 2px solid #9f9f9f" data-aos="fade-left">
+                  <div class="font-16 fw-semibold">Email</div>
+                  <div class="font-14 color-grey"><a href="mailto:wildanrachmadoni@gmail.com?" class="text-decoration-none color-grey">wildanrachmadoni@gmail.com</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="py-3 bg-grey">
+      <div class="g-0 container d-flex text-white flex-md-row flex-column-reverse">
+        <div class="me-0 me-md-auto text-center text-md-start">&copy; Wildan Rachmadoni 2023 All right Reserved</div>
+        <div class="d-flex justify-content-center justify-content-lg-start">
+          <a href="https://wa.me/6285336092998" class="text-decoration-noner mx-2"><i class="fab fa-whatsapp fa-lg btn-logo"></i></a>
+          <a href="https://github.com/WildanR1" class="text-decoration-noner mx-2"><i class="fab fa-github fa-lg btn-logo"></i></a>
+          <a href="https://www.instagram.com/wildn_rmdhn/" class="text-decoration-noner mx-2"><i class="fab fa-instagram fa-lg btn-logo"></i></a>
+          <a href="https://linkedin.com/in/wildan-rachmadoni-62476b260" class="text-decoration-none mx-2"><i class="fab fa-linkedin fa-lg btn-logo"></i></a>
+        </div>
+      </div>
+    </footer>
 
     <!-- script -->
-    <!-- <script src="js/loader.js"></script> -->
     <!-- inisialisasi animate on scroll -->
     <script>
       AOS.init({
